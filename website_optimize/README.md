@@ -6,7 +6,6 @@
 
 ## Measure
 
-1. Initially the pagespeed score was 28/30 on mobile and desktop.
 2.  Images needs to be compressed and resized.
 3. HTML,CSS,JS has to minified,cached and inlined.
 4. Enable render blocking Javascript and CSS.

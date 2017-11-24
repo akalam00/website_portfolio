@@ -521,7 +521,7 @@ function updatePositions() {
     window.performance.mark("mark_start_frame");
 
 
-    var count = document.body.scrollTop / 1250;
+    var count = document.documentElement.scrollTop / 1250; // as requested to change from document.body.scrolltop to document.documentElement.scrollTop for it to work perfectly. 
 
     // replaced querySelectorAll with getElementsByClassName for better performance
     var items = document.getElementsByClassName('mover');
